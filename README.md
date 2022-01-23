@@ -1,3 +1,9 @@
+# Simple Movie App
+
+This is a simple app to search for movies pulled from the OMDB API.
+
+Cycle to previous or next page by clicking the buttons on the bottom.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
