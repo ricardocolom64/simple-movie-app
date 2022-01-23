@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+  background-color: #282828;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App .navbar {
+  background-color: #141414;
+  color: white;
+  font-family: Share Tech;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .navbar-content {
+  width: 800px;
+  max-width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App .navbar a {
+  font-size: 32px;
+}
+
+.App .movies {
+  max-width: 960px;
+}
+
+.App .movies .movie-card {
+  max-width: 140px;
+  border: rgb(122, 122, 122);
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 12px;
+  margin: 8px;
+  background: linear-gradient(0deg, #141414 15%, #222222 25%);
+  box-shadow: 0px 2px 2px black;
+}
+
+.App .movie-card img {
+  height: 200px;
+  padding: 2px;
+  border-radius: 12px 12px 0px 0px;
+  object-fit: fill;
+}
+
+.App .movie-card .movie-title-year {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  min-height: 80px;
+  padding: 2px;
+  margin: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.App .pagebar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App .pagebar .pagebar-content {
+  display: flex;
+  width: 100%;
+  max-width: 760px;
+  margin: 24px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .pagebar .pagebar-content button{
+  display: flex;
+  flex-direction: row;
+  width: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App .pagebar .pagebar-content a{
+  font-size: 24px;
+  color: white;
+  font-family: Share Tech;
 }
