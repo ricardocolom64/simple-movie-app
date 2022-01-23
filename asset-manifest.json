@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-movie-app/static/css/main.6bf3dc07.css",
+    "main.js": "/simple-movie-app/static/js/main.1597cc0d.js",
+    "static/js/787.5fb25d9e.chunk.js": "/simple-movie-app/static/js/787.5fb25d9e.chunk.js",
+    "index.html": "/simple-movie-app/index.html",
+    "main.6bf3dc07.css.map": "/simple-movie-app/static/css/main.6bf3dc07.css.map",
+    "main.1597cc0d.js.map": "/simple-movie-app/static/js/main.1597cc0d.js.map",
+    "787.5fb25d9e.chunk.js.map": "/simple-movie-app/static/js/787.5fb25d9e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bf3dc07.css",
+    "static/js/main.1597cc0d.js"
+  ]
+}
